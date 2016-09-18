@@ -1,9 +1,9 @@
 //
 // ============================================================
-// Laboratory: 	Lab 1 - Part 2 - Digital Logic
-// Description:	Switches, Lights and Multiplexers
-// By:				K. walsh
-// Date:				August 21, 2016
+// Laboratory: 		Lab 1 - Part 2 - Digital Logic
+// Description:		Switches, Lights and Multiplexers
+// By:			K. walsh
+// Date:		August 21, 2016
 //
 
 // Top Level Module
@@ -11,8 +11,6 @@ module sw_leds_mux (
 	input [9:0] SW,
 	output [9:0] LEDR);
 //
-// SW		=	10x switch inputs
-// LEDR	=	10x LED outputs
 
 	assign LEDR[0] = (~SW[9] & SW[0]) | (SW[9] & SW[4]); //(~s&x0)|(s&y0)
 	assign LEDR[1] = (~SW[9] & SW[1]) | (SW[9] & SW[5]); //(~s&x1)|(s&y1)
