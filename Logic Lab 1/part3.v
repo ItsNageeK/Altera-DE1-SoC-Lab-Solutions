@@ -1,9 +1,9 @@
 //
 // ============================================================
-// Laboratory: 	Lab 1 - Part 3 - Digital Logic
-// Description:	2 Select Multiplexer
-// By:				K. walsh
-// Date:				August 21, 2016
+// Laboratory: 		Lab 1 - Part 3 - Digital Logic
+// Description:		2 Select Multiplexer
+// By:			K. walsh
+// Date:		August 21, 2016
 //
 
 // Top Level Module
@@ -11,8 +11,6 @@ module mux_2sel (
 	input [9:0] SW,
 	output [9:0] LEDR);
 //
-// SW		=	10x switch inputs
-// LEDR	=	10x LED outputs
 
 	assign LEDR[9] = SW[9];	//s1
 	assign LEDR[8] = SW[8];	//s0
