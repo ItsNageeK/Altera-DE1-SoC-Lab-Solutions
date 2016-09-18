@@ -1,12 +1,12 @@
 //
 // ============================================================
-// Laboratory: 	Lab 2 - Part 1 - Digital Logic
-// Description:	Using 2x 7-Seg displays, control each one to 
-//						output the values of 0-9 using 8x switches.  4x switches
-//						control one 7-seg and 4x switchs control another.
-//						The idea using BCDs, 4'bxxxx -> 1'd
+// Laboratory: 		Lab 2 - Part 1 - Digital Logic
+// Description:		Using 2x 7-Seg displays, control each one to 
+//					output the values of 0-9 using 8x switches.  4x switches
+//					control one 7-seg and 4x switchs control another.
+//					The idea using BCDs, 4'bxxxx -> 1'd
 // By:				K. Walsh
-// Date:				August 24, 2016
+// Date:			August 24, 2016
 //
 
 // ============================================================
